@@ -1,3 +1,4 @@
+#nullable enable
 using Microsoft.EntityFrameworkCore;
 using servidor.Data;
 using servidor.Models;

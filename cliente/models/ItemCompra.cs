@@ -1,3 +1,4 @@
+#nullable enable
 using cliente.Models;
 
 namespace cliente.Models;

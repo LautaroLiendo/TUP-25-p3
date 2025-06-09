@@ -1,78 +1,46 @@
+#nullable enable
 @page "/carrito"
-@using cliente.Models
-@using cliente.Services
 @using cliente.Dtos
-@inject CarritoService CarritoService
+@inject cliente.Services.CarritoService CarritoService
 
-<h1 class="text-2xl font-bold mb-4">Carrito</h1>
+<h3>Carrito</h3>
 
-@if (carrito.Count == 0)
+@if (carrito is null)
 {
-    <p>Tu carrito está vacío.</p>
+    <p>Cargando carrito...</p>
+}
+else if (!carrito.Any())
+{
+    <p>El carrito está vacío.</p>
 }
 else
 {
-    <table class="w-full text-left border">
-        <thead class="bg-gray-200">
-            <tr>
-                <th class="p-2">Producto</th>
-                <th class="p-2">Precio</th>
-                <th class="p-2">Cantidad</th>
-                <th class="p-2">Subtotal</th>
-                <th class="p-2">Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in carrito)
-            {
-                <tr class="border-t">
-                    <td class="p-2">@item.Producto?.Nombre</td>
-                    <td class="p-2">$@item.PrecioUnitario</td>
-                    <td class="p-2">@item.Cantidad</td>
-                    <td class="p-2">$@(item.Cantidad * item.PrecioUnitario)</td>
-                    <td class="p-2">
-                        <button class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600"
-                                @onclick="() => QuitarProducto(item.ProductoId)">
-                            Quitar
-                        </button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <ul>
+        @foreach (var item in carrito)
+        {
+            <li>@item.Nombre - @item.Cantidad x $@item.Precio</li>
+        }
+    </ul>
 
-    <div class="mt-4">
-        <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
-                @onclick="ConfirmarCompra">
-            Confirmar compra
-        </button>
-    </div>
+    <input @bind="nombreCliente" placeholder="Tu nombre" />
+    <button @onclick="ConfirmarCompra">Confirmar compra</button>
 }
 
 @code {
-    private List<ItemCompra> carrito = new();
+    private List<ProductoCarritoDto>? carrito;
+    private string nombreCliente = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
         carrito = await CarritoService.ObtenerCarrito();
     }
 
-    private async Task QuitarProducto(int productoId)
-    {
-        await CarritoService.QuitarProducto(productoId);
-        carrito = await CarritoService.ObtenerCarrito();
-    }
-
     private async Task ConfirmarCompra()
     {
-        var cliente = new ClienteDto
+        if (!string.IsNullOrWhiteSpace(nombreCliente))
         {
-            Nombre = "Juan",
-            Apellido = "Pérez",
-            Email = "juan.perez@example.com"
-        };
-
-        await CarritoService.ConfirmarCompra(cliente);
-        carrito.Clear();
+            await CarritoService.ConfirmarCompra(nombreCliente);
+            carrito = await CarritoService.ObtenerCarrito(); // Limpia el carrito después de confirmar
+        }
     }
 }

@@ -1,50 +1,35 @@
-using cliente.Models;
-using cliente.Dtos;
 using System.Net.Http.Json;
+using cliente.Dtos;
+using cliente.Models;
 
-namespace cliente.Services;
-
-public class CarritoService
+namespace cliente.Services
 {
-    private readonly HttpClient _http;
-    private Guid? _carritoId;
-
-    public CarritoService(HttpClient http)
+    public class CarritoService
     {
-        _http = http;
-    }
+        private readonly HttpClient http;
 
-    public async Task CrearCarrito()
-    {
-        var res = await _http.PostAsync("/carritos", null);
-        if (res.IsSuccessStatusCode)
-            _carritoId = await res.Content.ReadFromJsonAsync<Guid>();
-    }
+        public CarritoService(HttpClient http)
+        {
+            this.http = http;
+        }
 
-    public async Task<List<ItemCompra>> ObtenerCarrito()
-    {
-        if (_carritoId == null)
-            return new();
+        public async Task<List<ProductoCarritoDto>> ObtenerCarrito()
+        {
+            var response = await http.GetFromJsonAsync<List<ProductoCarritoDto>>("api/carrito");
+            return response ?? new List<ProductoCarritoDto>();
+        }
 
-        var items = await _http.GetFromJsonAsync<List<ItemCompra>>($"/carritos/{_carritoId}");
-        return items ?? new();
-    }
+        public async Task ConfirmarCompra(string nombreCliente)
+        {
+            var clienteDto = new ClienteDto { Nombre = nombreCliente };
+            var response = await http.PostAsJsonAsync("api/carrito/confirmar", clienteDto);
+            response.EnsureSuccessStatusCode();
+        }
 
-    public async Task AgregarProducto(int productoId)
-    {
-        if (_carritoId == null) return;
-        await _http.PutAsync($"/carritos/{_carritoId}/{productoId}", null);
-    }
-
-    public async Task QuitarProducto(int productoId)
-    {
-        if (_carritoId == null) return;
-        await _http.DeleteAsync($"/carritos/{_carritoId}/{productoId}");
-    }
-
-    public async Task ConfirmarCompra(ClienteDto cliente)
-    {
-        if (_carritoId == null) return;
-        await _http.PutAsJsonAsync($"/carritos/{_carritoId}/confirmar", cliente);
+        public async Task AgregarProducto(int id)
+        {
+            var response = await http.PostAsync($"api/carrito/{id}", null);
+            response.EnsureSuccessStatusCode();
+        }
     }
 }

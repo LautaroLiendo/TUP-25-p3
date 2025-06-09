@@ -1,49 +1,42 @@
+#nullable enable
+#nullable restore
 @page "/productos"
-@using cliente.Models
-@using cliente.Services
-@inject ProductoService ProductoService
-@inject CarritoService CarritoService
+@inject Services.ProductoService ProductoService
+@inject Services.CarritoService CarritoService
 
-<h1 class="text-2xl font-bold mb-4">Productos</h1>
+<h3>Lista de Productos</h3>
 
-@if (productos == null)
+@if (productos is null)
 {
     <p>Cargando productos...</p>
 }
-else if (productos.Count == 0)
-{
-    <p>No hay productos disponibles.</p>
-}
 else
 {
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <ul>
         @foreach (var producto in productos)
         {
-            <div class="border rounded p-4 shadow">
-                <img src="@producto.ImagenUrl" alt="@producto.Nombre" class="w-full h-48 object-cover mb-2 rounded" />
-                <h2 class="text-lg font-semibold">@producto.Nombre</h2>
-                <p class="text-sm text-gray-600">@producto.Descripcion</p>
-                <p class="text-green-600 font-bold mt-2">$@producto.Precio</p>
-                <button class="mt-2 bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600"
-                        @onclick="() => AgregarAlCarrito(producto.Id)">
-                    Agregar al carrito
-                </button>
-            </div>
+            <li>
+                @producto.Nombre - $@producto.Precio
+                <button @onclick="() => AgregarAlCarrito(producto.Id)">Agregar al carrito</button>
+            </li>
         }
-    </div>
+    </ul>
 }
 
 @code {
-    private List<Producto> productos = new();
+    private List<Dtos.ProductoDto>? productos;
 
     protected override async Task OnInitializedAsync()
     {
-        await CarritoService.CrearCarrito(); // Asegura que haya un carrito creado
         productos = await ProductoService.ObtenerProductos();
     }
 
     private async Task AgregarAlCarrito(int productoId)
     {
-        await CarritoService.AgregarProducto(productoId);
+        var producto = productos?.FirstOrDefault(p => p.Id == productoId);
+        if (producto != null)
+        {
+            await CarritoService.AgregarProducto(producto.Id);
+        }
     }
 }

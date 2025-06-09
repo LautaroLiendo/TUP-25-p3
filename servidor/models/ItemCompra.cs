@@ -1,3 +1,5 @@
+#nullable enable
+
 namespace servidor.Models;
 
 public class ItemCompra
