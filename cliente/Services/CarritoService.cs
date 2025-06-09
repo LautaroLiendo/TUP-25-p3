@@ -1,35 +1,37 @@
-using System.Net.Http.Json;
 using cliente.Dtos;
-using cliente.Models;
+using System.Net.Http.Json;
 
-namespace cliente.Services
+namespace cliente.Services;
+
+public class CarritoService
 {
-    public class CarritoService
+    private readonly HttpClient _http;
+    private List<ProductoDto> carrito = new();
+
+    public CarritoService(HttpClient http)
     {
-        private readonly HttpClient http;
+        _http = http;
+    }
 
-        public CarritoService(HttpClient http)
-        {
-            this.http = http;
-        }
+    public void AgregarProducto(ProductoDto producto)
+    {
+        carrito.Add(producto);
+    }
 
-        public async Task<List<ProductoCarritoDto>> ObtenerCarrito()
-        {
-            var response = await http.GetFromJsonAsync<List<ProductoCarritoDto>>("api/carrito");
-            return response ?? new List<ProductoCarritoDto>();
-        }
+    public List<ProductoDto> ObtenerCarrito()
+    {
+        return carrito;
+    }
 
-        public async Task ConfirmarCompra(string nombreCliente)
+    public async Task ConfirmarCompra(string nombreCliente)
+    {
+        var datos = new
         {
-            var clienteDto = new ClienteDto { Nombre = nombreCliente };
-            var response = await http.PostAsJsonAsync("api/carrito/confirmar", clienteDto);
-            response.EnsureSuccessStatusCode();
-        }
+            cliente = nombreCliente,
+            productos = carrito
+        };
 
-        public async Task AgregarProducto(int id)
-        {
-            var response = await http.PostAsync($"api/carrito/{id}", null);
-            response.EnsureSuccessStatusCode();
-        }
+        await _http.PostAsJsonAsync("carrito/confirmar", datos);
+        carrito.Clear();
     }
 }

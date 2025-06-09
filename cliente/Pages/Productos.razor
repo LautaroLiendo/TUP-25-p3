@@ -1,10 +1,13 @@
-#nullable enable
-#nullable restore
 @page "/productos"
-@inject Services.ProductoService ProductoService
-@inject Services.CarritoService CarritoService
+@using cliente.Dtos
+@using cliente.Services
+@inject ProductoService ProductoService
+@inject CarritoService CarritoService
 
-<h3>Lista de Productos</h3>
+@inject ProductoService ProductoService
+@inject CarritoService CarritoService
+
+<h3>Productos</h3>
 
 @if (productos is null)
 {
@@ -12,31 +15,31 @@
 }
 else
 {
-    <ul>
+    <div class="row">
         @foreach (var producto in productos)
         {
-            <li>
-                @producto.Nombre - $@producto.Precio
-                <button @onclick="() => AgregarAlCarrito(producto.Id)">Agregar al carrito</button>
-            </li>
+            <div class="card col-md-3 m-2 p-2 border rounded">
+                <img src="@producto.ImagenUrl" alt="@producto.Nombre" class="img-fluid" />
+                <h5>@producto.Nombre</h5>
+                <p>@producto.Descripcion</p>
+                <p><strong>Precio:</strong> $@producto.Precio</p>
+                <p><strong>Stock:</strong> @producto.Stock</p>
+                <button class="btn btn-primary" @onclick="@(() => Agregar(producto))">Agregar al carrito</button>
+            </div>
         }
-    </ul>
+    </div>
 }
 
 @code {
-    private List<Dtos.ProductoDto>? productos;
+    List<ProductoDto>? productos;
 
     protected override async Task OnInitializedAsync()
     {
         productos = await ProductoService.ObtenerProductos();
     }
 
-    private async Task AgregarAlCarrito(int productoId)
+    void Agregar(ProductoDto producto)
     {
-        var producto = productos?.FirstOrDefault(p => p.Id == productoId);
-        if (producto != null)
-        {
-            await CarritoService.AgregarProducto(producto.Id);
-        }
+        CarritoService.AgregarProducto(producto);
     }
 }

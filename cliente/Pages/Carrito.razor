@@ -1,46 +1,45 @@
-#nullable enable
 @page "/carrito"
 @using cliente.Dtos
-@inject cliente.Services.CarritoService CarritoService
+@using cliente.Services
+@inject CarritoService CarritoService
 
-<h3>Carrito</h3>
+@inject CarritoService CarritoService
 
-@if (carrito is null)
+<h3>Carrito de Compras</h3>
+
+@if (carrito.Count == 0)
 {
-    <p>Cargando carrito...</p>
-}
-else if (!carrito.Any())
-{
-    <p>El carrito está vacío.</p>
+    <p>No hay productos en el carrito.</p>
 }
 else
 {
-    <ul>
+    <ul class="list-group">
         @foreach (var item in carrito)
         {
-            <li>@item.Nombre - @item.Cantidad x $@item.Precio</li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span>@item.Nombre</span>
+                <span>$@item.Precio</span>
+            </li>
         }
     </ul>
 
-    <input @bind="nombreCliente" placeholder="Tu nombre" />
-    <button @onclick="ConfirmarCompra">Confirmar compra</button>
+    <div class="mt-3">
+        <label for="nombreCliente">Tu nombre:</label>
+        <input id="nombreCliente" @bind="nombreCliente" class="form-control" />
+        <button class="btn btn-success mt-2" @onclick="Confirmar">Confirmar compra</button>
+    </div>
 }
 
 @code {
-    private List<ProductoCarritoDto>? carrito;
-    private string nombreCliente = string.Empty;
+    string nombreCliente = "";
+    List<ProductoDto> carrito => CarritoService.ObtenerCarrito();
 
-    protected override async Task OnInitializedAsync()
-    {
-        carrito = await CarritoService.ObtenerCarrito();
-    }
-
-    private async Task ConfirmarCompra()
+    async Task Confirmar()
     {
         if (!string.IsNullOrWhiteSpace(nombreCliente))
         {
             await CarritoService.ConfirmarCompra(nombreCliente);
-            carrito = await CarritoService.ObtenerCarrito(); // Limpia el carrito después de confirmar
+            nombreCliente = "";
         }
     }
 }
