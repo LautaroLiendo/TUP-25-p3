@@ -2,8 +2,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using cliente.Models;
-
+using cliente.Dtos;
 
 namespace cliente.Services
 {
@@ -17,14 +16,14 @@ namespace cliente.Services
         }
 
         // Trae todos los productos o filtra por nombre
-        public async Task<List<Producto>> GetProductos(string? buscar = null)
+        public async Task<List<ProductoDto>> GetProductos(string? buscar = null)
         {
             string url = "productos";
             if (!string.IsNullOrWhiteSpace(buscar))
                 url += $"?buscar={buscar}";
 
-            var productos = await _http.GetFromJsonAsync<List<Producto>>(url);
-            return productos ?? new List<Producto>();
+            var productos = await _http.GetFromJsonAsync<List<ProductoDto>>(url);
+            return productos ?? new List<ProductoDto>();
         }
     }
 }
