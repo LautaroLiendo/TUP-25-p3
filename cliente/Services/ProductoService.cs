@@ -1,29 +1,24 @@
-using System.Net.Http;
+using cliente.Models;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using cliente.Dtos;
 
-namespace cliente.Services
+namespace cliente.Services;
+
+public class ProductoService
 {
-    public class ProductoService
+    private readonly HttpClient _http;
+
+    public ProductoService(HttpClient http)
     {
-        private readonly HttpClient _http;
+        _http = http;
+    }
 
-        public ProductoService(HttpClient http)
-        {
-            _http = http;
-        }
+    public async Task<List<Producto>> ObtenerProductos(string? buscar = null)
+    {
+        var url = "/productos";
+        if (!string.IsNullOrWhiteSpace(buscar))
+            url += $"?buscar={buscar}";
 
-        // Trae todos los productos o filtra por nombre
-        public async Task<List<ProductoDto>> GetProductos(string? buscar = null)
-        {
-            string url = "productos";
-            if (!string.IsNullOrWhiteSpace(buscar))
-                url += $"?buscar={buscar}";
-
-            var productos = await _http.GetFromJsonAsync<List<ProductoDto>>(url);
-            return productos ?? new List<ProductoDto>();
-        }
+        var productos = await _http.GetFromJsonAsync<List<Producto>>(url);
+        return productos ?? new List<Producto>();
     }
 }

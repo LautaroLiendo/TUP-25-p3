@@ -1,0 +1,78 @@
+@page "/carrito"
+@using cliente.Models
+@using cliente.Services
+@using cliente.Dtos
+@inject CarritoService CarritoService
+
+<h1 class="text-2xl font-bold mb-4">Carrito</h1>
+
+@if (carrito.Count == 0)
+{
+    <p>Tu carrito está vacío.</p>
+}
+else
+{
+    <table class="w-full text-left border">
+        <thead class="bg-gray-200">
+            <tr>
+                <th class="p-2">Producto</th>
+                <th class="p-2">Precio</th>
+                <th class="p-2">Cantidad</th>
+                <th class="p-2">Subtotal</th>
+                <th class="p-2">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in carrito)
+            {
+                <tr class="border-t">
+                    <td class="p-2">@item.Producto?.Nombre</td>
+                    <td class="p-2">$@item.PrecioUnitario</td>
+                    <td class="p-2">@item.Cantidad</td>
+                    <td class="p-2">$@(item.Cantidad * item.PrecioUnitario)</td>
+                    <td class="p-2">
+                        <button class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600"
+                                @onclick="() => QuitarProducto(item.ProductoId)">
+                            Quitar
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-4">
+        <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+                @onclick="ConfirmarCompra">
+            Confirmar compra
+        </button>
+    </div>
+}
+
+@code {
+    private List<ItemCompra> carrito = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        carrito = await CarritoService.ObtenerCarrito();
+    }
+
+    private async Task QuitarProducto(int productoId)
+    {
+        await CarritoService.QuitarProducto(productoId);
+        carrito = await CarritoService.ObtenerCarrito();
+    }
+
+    private async Task ConfirmarCompra()
+    {
+        var cliente = new ClienteDto
+        {
+            Nombre = "Juan",
+            Apellido = "Pérez",
+            Email = "juan.perez@example.com"
+        };
+
+        await CarritoService.ConfirmarCompra(cliente);
+        carrito.Clear();
+    }
+}

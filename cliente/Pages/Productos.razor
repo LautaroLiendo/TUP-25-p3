@@ -1,44 +1,49 @@
 @page "/productos"
-@inject Services.ProductoService productoService
+@using cliente.Models
+@using cliente.Services
+@inject ProductoService ProductoService
+@inject CarritoService CarritoService
 
-<h3 class="text-2xl font-bold mb-4">Lista de Productos</h3>
+<h1 class="text-2xl font-bold mb-4">Productos</h1>
 
-@if (productos is null)
+@if (productos == null)
 {
     <p>Cargando productos...</p>
 }
-else if (!productos.Any())
+else if (productos.Count == 0)
 {
     <p>No hay productos disponibles.</p>
 }
 else
 {
-    <table class="table-auto border-collapse w-full">
-        <thead>
-            <tr class="bg-gray-200">
-                <th class="border px-4 py-2">Descripción</th>
-                <th class="border px-4 py-2">Precio</th>
-                <th class="border px-4 py-2">Stock</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var p in productos)
-            {
-                <tr>
-                    <td class="border px-4 py-2">@p.Descripcion</td>
-                    <td class="border px-4 py-2">@p.Precio.ToString("C")</td>
-                    <td class="border px-4 py-2">@p.Stock</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        @foreach (var producto in productos)
+        {
+            <div class="border rounded p-4 shadow">
+                <img src="@producto.ImagenUrl" alt="@producto.Nombre" class="w-full h-48 object-cover mb-2 rounded" />
+                <h2 class="text-lg font-semibold">@producto.Nombre</h2>
+                <p class="text-sm text-gray-600">@producto.Descripcion</p>
+                <p class="text-green-600 font-bold mt-2">$@producto.Precio</p>
+                <button class="mt-2 bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600"
+                        @onclick="() => AgregarAlCarrito(producto.Id)">
+                    Agregar al carrito
+                </button>
+            </div>
+        }
+    </div>
 }
 
 @code {
-    List<Models.Producto>? productos;
+    private List<Producto> productos = new();
 
     protected override async Task OnInitializedAsync()
     {
-        productos = await productoService.GetProductos();
+        await CarritoService.CrearCarrito(); // Asegura que haya un carrito creado
+        productos = await ProductoService.ObtenerProductos();
+    }
+
+    private async Task AgregarAlCarrito(int productoId)
+    {
+        await CarritoService.AgregarProducto(productoId);
     }
 }
