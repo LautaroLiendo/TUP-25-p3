@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MdjvwXlXSlz/KjNMekkdVmYbrxCQAka1xIEEmQxy2dE=",
+  "Hash": "sSRwNhcEcdIBG/8jWG6M7jthGQIFJFO9ioT7+ffnynI=",
   "Source": "cliente",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "4o6edv0o7c",
-      "Integrity": "RCKuJ8NXENcZLgJ+Ohq6Vv2H9zRMsnwImXbqqJt3bF4=",
+      "Fingerprint": "gry4atihdj",
+      "Integrity": "/MbCa8jEcoYr7pcN8sM4xJ3UK+4ZUcfSenFJHBpF7N0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "sfblubetvr",
-      "Integrity": "2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk=",
+      "Fingerprint": "slib3bosnj",
+      "Integrity": "8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\cliente.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "h4813rjd94",
-      "Integrity": "n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4=",
+      "Fingerprint": "ma2pgoyw4v",
+      "Integrity": "3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\webcil\\cliente.wasm"
@@ -5876,12 +5876,12 @@
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.wasm"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-h4813rjd94.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-ma2pgoyw4v.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/cliente#[.{fingerprint=h4813rjd94}]!.wasm.gz",
+      "RelativePath": "_framework/cliente#[.{fingerprint=ma2pgoyw4v}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5890,8 +5890,8 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "j4zws0k9rp",
-      "Integrity": "05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY=",
+      "Fingerprint": "6oscm21rji",
+      "Integrity": "JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm"
@@ -7850,12 +7850,12 @@
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Collections.NonGeneric.wasm"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-sfblubetvr.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-slib3bosnj.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/cliente#[.{fingerprint=sfblubetvr}]!.pdb.gz",
+      "RelativePath": "_framework/cliente#[.{fingerprint=slib3bosnj}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7864,14 +7864,14 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kcw1d355e4",
-      "Integrity": "/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM=",
+      "Fingerprint": "m50ycttfum",
+      "Integrity": "SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-4o6edv0o7c.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-gry4atihdj.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
@@ -7885,8 +7885,8 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "03lt11l0jw",
-      "Integrity": "/KSYYwrNvhEDhkwcGwJEa4nYSFpirFw2n/dLZ3P8klg=",
+      "Fingerprint": "ls51wyz5w5",
+      "Integrity": "lSt5ThmSvcBoK6HrzQ/B3B/aIfwYnmOXt75q/YBp0U4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8815,7 +8815,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RCKuJ8NXENcZLgJ+Ohq6Vv2H9zRMsnwImXbqqJt3bF4=\""
+          "Value": "\"/MbCa8jEcoYr7pcN8sM4xJ3UK+4ZUcfSenFJHBpF7N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/MbCa8jEcoYr7pcN8sM4xJ3UK+4ZUcfSenFJHBpF7N0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-gry4atihdj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081261173"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12305"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lSt5ThmSvcBoK6HrzQ/B3B/aIfwYnmOXt75q/YBp0U4=\""
         },
         {
           "Name": "Last-Modified",
@@ -8824,45 +8863,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RCKuJ8NXENcZLgJ+Ohq6Vv2H9zRMsnwImXbqqJt3bF4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-4o6edv0o7c.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081280988"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12302"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/KSYYwrNvhEDhkwcGwJEa4nYSFpirFw2n/dLZ3P8klg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -8878,19 +8878,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RCKuJ8NXENcZLgJ+Ohq6Vv2H9zRMsnwImXbqqJt3bF4=\""
+          "Value": "W/\"/MbCa8jEcoYr7pcN8sM4xJ3UK+4ZUcfSenFJHBpF7N0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RCKuJ8NXENcZLgJ+Ohq6Vv2H9zRMsnwImXbqqJt3bF4="
+          "Value": "sha256-/MbCa8jEcoYr7pcN8sM4xJ3UK+4ZUcfSenFJHBpF7N0="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-4o6edv0o7c.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-gry4atihdj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8899,7 +8899,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12302"
+          "Value": "12305"
         },
         {
           "Name": "Content-Type",
@@ -8907,11 +8907,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/KSYYwrNvhEDhkwcGwJEa4nYSFpirFw2n/dLZ3P8klg=\""
+          "Value": "\"lSt5ThmSvcBoK6HrzQ/B3B/aIfwYnmOXt75q/YBp0U4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:43:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8929,7 +8929,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/KSYYwrNvhEDhkwcGwJEa4nYSFpirFw2n/dLZ3P8klg="
+          "Value": "sha256-lSt5ThmSvcBoK6HrzQ/B3B/aIfwYnmOXt75q/YBp0U4="
         }
       ]
     },
@@ -9071,7 +9071,7 @@
       ]
     },
     {
-      "Route": "_framework/cliente.h4813rjd94.wasm",
+      "Route": "_framework/cliente.ma2pgoyw4v.wasm",
       "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9081,7 +9081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23317"
+          "Value": "23829"
         },
         {
           "Name": "Content-Type",
@@ -9089,11 +9089,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4=\""
+          "Value": "\"3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:17 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9103,7 +9103,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h4813rjd94"
+          "Value": "ma2pgoyw4v"
         },
         {
           "Name": "label",
@@ -9111,18 +9111,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4="
+          "Value": "sha256-3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.h4813rjd94.wasm",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-h4813rjd94.gz",
+      "Route": "_framework/cliente.ma2pgoyw4v.wasm",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-ma2pgoyw4v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000095075109"
+          "Quality": "0.000092833271"
         }
       ],
       "ResponseHeaders": [
@@ -9132,15 +9132,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "10771"
         },
         {
           "Name": "ETag",
-          "Value": "\"05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY=\""
+          "Value": "\"JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9160,13 +9160,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4=\""
+          "Value": "W/\"3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h4813rjd94"
+          "Value": "ma2pgoyw4v"
         },
         {
           "Name": "label",
@@ -9174,13 +9174,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4="
+          "Value": "sha256-3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.h4813rjd94.wasm.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-h4813rjd94.gz",
+      "Route": "_framework/cliente.ma2pgoyw4v.wasm.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-ma2pgoyw4v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9189,7 +9189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "10771"
         },
         {
           "Name": "Content-Type",
@@ -9197,11 +9197,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY=\""
+          "Value": "\"JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9219,7 +9219,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h4813rjd94"
+          "Value": "ma2pgoyw4v"
         },
         {
           "Name": "label",
@@ -9227,7 +9227,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY="
+          "Value": "sha256-JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs="
         }
       ]
     },
@@ -9242,7 +9242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24360"
+          "Value": "24584"
         },
         {
           "Name": "Content-Type",
@@ -9250,11 +9250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk=\""
+          "Value": "\"8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:17 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9264,18 +9264,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk="
+          "Value": "sha256-8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A="
         }
       ]
     },
     {
       "Route": "_framework/cliente.pdb",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-sfblubetvr.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-slib3bosnj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000060938452"
+          "Quality": "0.000060230079"
         }
       ],
       "ResponseHeaders": [
@@ -9285,15 +9285,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16409"
+          "Value": "16602"
         },
         {
           "Name": "ETag",
-          "Value": "\"/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM=\""
+          "Value": "\"SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9313,19 +9313,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk=\""
+          "Value": "W/\"8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk="
+          "Value": "sha256-8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A="
         }
       ]
     },
     {
       "Route": "_framework/cliente.pdb.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-sfblubetvr.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-slib3bosnj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9334,7 +9334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16409"
+          "Value": "16602"
         },
         {
           "Name": "Content-Type",
@@ -9342,11 +9342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM=\""
+          "Value": "\"SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9364,12 +9364,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM="
+          "Value": "sha256-SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.sfblubetvr.pdb",
+      "Route": "_framework/cliente.slib3bosnj.pdb",
       "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9379,7 +9379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24360"
+          "Value": "24584"
         },
         {
           "Name": "Content-Type",
@@ -9387,11 +9387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk=\""
+          "Value": "\"8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:17 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9401,7 +9401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sfblubetvr"
+          "Value": "slib3bosnj"
         },
         {
           "Name": "label",
@@ -9409,18 +9409,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk="
+          "Value": "sha256-8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.sfblubetvr.pdb",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-sfblubetvr.gz",
+      "Route": "_framework/cliente.slib3bosnj.pdb",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-slib3bosnj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000060938452"
+          "Quality": "0.000060230079"
         }
       ],
       "ResponseHeaders": [
@@ -9430,15 +9430,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16409"
+          "Value": "16602"
         },
         {
           "Name": "ETag",
-          "Value": "\"/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM=\""
+          "Value": "\"SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9458,13 +9458,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk=\""
+          "Value": "W/\"8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sfblubetvr"
+          "Value": "slib3bosnj"
         },
         {
           "Name": "label",
@@ -9472,13 +9472,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2MjvkD6GfZ7/rIZQ5dj0/0LGZxQM5+Nb2LOUuEzMugk="
+          "Value": "sha256-8KEFhkp2vFsEWVNHb1K2Y90yi48d/BB2pSM0uPy208A="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.sfblubetvr.pdb.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-sfblubetvr.gz",
+      "Route": "_framework/cliente.slib3bosnj.pdb.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-slib3bosnj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9487,7 +9487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16409"
+          "Value": "16602"
         },
         {
           "Name": "Content-Type",
@@ -9495,11 +9495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM=\""
+          "Value": "\"SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9517,7 +9517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sfblubetvr"
+          "Value": "slib3bosnj"
         },
         {
           "Name": "label",
@@ -9525,7 +9525,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/PyAbQW2N2u1a6JXrdBqlIIgLkiQ9L053HuCjojA2ZM="
+          "Value": "sha256-SuWArmn1AecmMlhjy4ilVx+mpVRfiqWZoMwqNXpyZ8A="
         }
       ]
     },
@@ -9540,7 +9540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23317"
+          "Value": "23829"
         },
         {
           "Name": "Content-Type",
@@ -9548,11 +9548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4=\""
+          "Value": "\"3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:17 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9562,18 +9562,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4="
+          "Value": "sha256-3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw="
         }
       ]
     },
     {
       "Route": "_framework/cliente.wasm",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-h4813rjd94.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-ma2pgoyw4v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000095075109"
+          "Quality": "0.000092833271"
         }
       ],
       "ResponseHeaders": [
@@ -9583,15 +9583,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "10771"
         },
         {
           "Name": "ETag",
-          "Value": "\"05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY=\""
+          "Value": "\"JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9611,19 +9611,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4=\""
+          "Value": "W/\"3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n4Ei5WQdIIiuQIryDwcjjk2XFhHU2BalhpHII5fw+Z4="
+          "Value": "sha256-3mcz7ph8g7McIXcMsRIb/K7TkLUUiykaauVtu8bBBvw="
         }
       ]
     },
     {
       "Route": "_framework/cliente.wasm.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-h4813rjd94.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-ma2pgoyw4v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9632,7 +9632,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "10771"
         },
         {
           "Name": "Content-Type",
@@ -9640,11 +9640,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY=\""
+          "Value": "\"JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 23:43:18 GMT"
+          "Value": "Mon, 09 Jun 2025 23:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9662,7 +9662,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-05Xhextw7KU6TRT6Y6GIzuV9XIqqMUg2fBsGpzJgpbY="
+          "Value": "sha256-JgqdOzgeQm4yMbv1zUesRYzo8iVxfjRE99fIpgB4pTs="
         }
       ]
     },

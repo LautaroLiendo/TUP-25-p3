@@ -1,7 +1,5 @@
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.sfblubetvr.pdb
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.h4813rjd94.wasm
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\dotnet.js
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.map
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.1p93gcv9fh.js
@@ -276,7 +274,6 @@ C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.map.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Thread.k53q2qtn4x.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.5nttvixer4.wasm.gz
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.h4813rjd94.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.IO.FileSystem.Primitives.uai8nn8fsl.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Primitives.iclgtmwg3j.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.ObjectModel.dpibji9kbk.wasm.gz
@@ -367,7 +364,6 @@ C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Intrinsics.gi0f477zy4.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.5wmrv335ba.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.Collections.NonGeneric.wor57912gd.wasm.gz
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.sfblubetvr.pdb.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\System.Globalization.Extensions.tmi9prr4h8.wasm.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.qrl1fuqt3c.js.gz
@@ -1019,9 +1015,6 @@ C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\j996sgj5cz-tjcz0u77k5.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\wdg7jk9sq9-tptq2av103.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\0xnulgvg1v-lfu7j35m59.gz
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\ev71k6zggc-h4813rjd94.gz
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\tcrmlfre36-sfblubetvr.gz
-C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\tgoiw4fjhw-4o6edv0o7c.gz
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1036,3 +1029,10 @@ C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\refint\cliente.dll
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\cliente.pdb
 C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\ref\cliente.dll
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.slib3bosnj.pdb
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.ma2pgoyw4v.wasm
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.ma2pgoyw4v.wasm.gz
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.slib3bosnj.pdb.gz
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\ev71k6zggc-ma2pgoyw4v.gz
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\tcrmlfre36-slib3bosnj.gz
+C:\Users\liend\Documents\GitHub\Parcial6\TP\61218 - Liendo, Lautaro\tp6\cliente\obj\Debug\net9.0\compressed\tgoiw4fjhw-gry4atihdj.gz
