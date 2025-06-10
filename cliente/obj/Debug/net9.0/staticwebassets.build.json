@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r+te/32mcLcBwUpXhPvV7JGdb4Kkdpi2iVGRMPRUlQ4=",
+  "Hash": "gxyv0N6NiK9W49c9/MygunVYBa9Z5UuP7x4YU4ApPZg=",
   "Source": "cliente",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "1wyvjbogqx",
-      "Integrity": "n76B/3Zl5RqhmoI5jnDQXC/T1+B2kLPqAIZd4VyfYwo=",
+      "Fingerprint": "ci7jbfpgbx",
+      "Integrity": "xMPyF+BQUbcAQpONte/wwEwlE+UHqzgCKmwy95l7sYU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "hav5jtnecg",
-      "Integrity": "qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA=",
+      "Fingerprint": "scifblyja7",
+      "Integrity": "VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\cliente.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "n35ra8qlnw",
-      "Integrity": "bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g=",
+      "Fingerprint": "utgi1g9s08",
+      "Integrity": "spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\webcil\\cliente.wasm"
@@ -5876,12 +5876,12 @@
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.wasm"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-n35ra8qlnw.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-utgi1g9s08.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/cliente#[.{fingerprint=n35ra8qlnw}]!.wasm.gz",
+      "RelativePath": "_framework/cliente#[.{fingerprint=utgi1g9s08}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5890,8 +5890,8 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0q99y7etij",
-      "Integrity": "eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg=",
+      "Fingerprint": "j76eaepdju",
+      "Integrity": "Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm"
@@ -7850,12 +7850,12 @@
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Collections.NonGeneric.wasm"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-hav5jtnecg.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-scifblyja7.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/cliente#[.{fingerprint=hav5jtnecg}]!.pdb.gz",
+      "RelativePath": "_framework/cliente#[.{fingerprint=scifblyja7}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7864,14 +7864,14 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6zgyeblq4o",
-      "Integrity": "jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY=",
+      "Fingerprint": "dncuhh6y8l",
+      "Integrity": "iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb"
     },
     {
-      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-1wyvjbogqx.gz",
+      "Identity": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-ci7jbfpgbx.gz",
       "SourceId": "cliente",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\",
@@ -7885,8 +7885,8 @@
       "RelatedAsset": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "k678osvelw",
-      "Integrity": "XE6G+6AMutoITkHp/JZN55ZlQS3IqNqkq6U0p5wGWMw=",
+      "Fingerprint": "4s0d1fodax",
+      "Integrity": "zL18iPP8hpG4nY6xa/DZ/R5+jP7BZ1CcHzap/MtzkEw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8815,7 +8815,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n76B/3Zl5RqhmoI5jnDQXC/T1+B2kLPqAIZd4VyfYwo=\""
+          "Value": "\"xMPyF+BQUbcAQpONte/wwEwlE+UHqzgCKmwy95l7sYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMPyF+BQUbcAQpONte/wwEwlE+UHqzgCKmwy95l7sYU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-ci7jbfpgbx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081261173"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12305"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zL18iPP8hpG4nY6xa/DZ/R5+jP7BZ1CcHzap/MtzkEw=\""
         },
         {
           "Name": "Last-Modified",
@@ -8824,45 +8863,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-n76B/3Zl5RqhmoI5jnDQXC/T1+B2kLPqAIZd4VyfYwo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-1wyvjbogqx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081300813"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12299"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XE6G+6AMutoITkHp/JZN55ZlQS3IqNqkq6U0p5wGWMw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -8878,19 +8878,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n76B/3Zl5RqhmoI5jnDQXC/T1+B2kLPqAIZd4VyfYwo=\""
+          "Value": "W/\"xMPyF+BQUbcAQpONte/wwEwlE+UHqzgCKmwy95l7sYU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n76B/3Zl5RqhmoI5jnDQXC/T1+B2kLPqAIZd4VyfYwo="
+          "Value": "sha256-xMPyF+BQUbcAQpONte/wwEwlE+UHqzgCKmwy95l7sYU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-1wyvjbogqx.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tgoiw4fjhw-ci7jbfpgbx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8899,7 +8899,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12299"
+          "Value": "12305"
         },
         {
           "Name": "Content-Type",
@@ -8907,11 +8907,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XE6G+6AMutoITkHp/JZN55ZlQS3IqNqkq6U0p5wGWMw=\""
+          "Value": "\"zL18iPP8hpG4nY6xa/DZ/R5+jP7BZ1CcHzap/MtzkEw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 01:04:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8929,7 +8929,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XE6G+6AMutoITkHp/JZN55ZlQS3IqNqkq6U0p5wGWMw="
+          "Value": "sha256-zL18iPP8hpG4nY6xa/DZ/R5+jP7BZ1CcHzap/MtzkEw="
         }
       ]
     },
@@ -8995,7 +8995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Thu, 13 Feb 2025 03:03:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9048,7 +9048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Thu, 13 Feb 2025 03:03:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9071,7 +9071,7 @@
       ]
     },
     {
-      "Route": "_framework/cliente.hav5jtnecg.pdb",
+      "Route": "_framework/cliente.pdb",
       "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9089,35 +9089,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA=\""
+          "Value": "\"VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:07 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:50 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "hav5jtnecg"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cliente.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA="
+          "Value": "sha256-VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.hav5jtnecg.pdb",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-hav5jtnecg.gz",
+      "Route": "_framework/cliente.pdb",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-scifblyja7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -9136,15 +9128,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY=\""
+          "Value": "\"iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9160,27 +9152,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA=\""
+          "Value": "W/\"VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "hav5jtnecg"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/cliente.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA="
+          "Value": "sha256-VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.hav5jtnecg.pdb.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-hav5jtnecg.gz",
+      "Route": "_framework/cliente.pdb.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-scifblyja7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9197,11 +9181,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY=\""
+          "Value": "\"iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cliente.scifblyja7.pdb",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:53:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scifblyja7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cliente.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cliente.scifblyja7.pdb",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-scifblyja7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000061338404"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scifblyja7"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/cliente.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLYmmMJBGkn7rbNpb/xI8fSwIUVsbA0uNlu+quG66xI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/cliente.scifblyja7.pdb.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-scifblyja7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9219,7 +9356,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hav5jtnecg"
+          "Value": "scifblyja7"
         },
         {
           "Name": "label",
@@ -9227,12 +9364,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY="
+          "Value": "sha256-iRAZ3z0nVUo6MzH+ahVbjvdwa2O6XvgqyJnCz+p82mE="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.n35ra8qlnw.wasm",
+      "Route": "_framework/cliente.utgi1g9s08.wasm",
       "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9250,11 +9387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g=\""
+          "Value": "\"spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:08 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9264,7 +9401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n35ra8qlnw"
+          "Value": "utgi1g9s08"
         },
         {
           "Name": "label",
@@ -9272,18 +9409,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g="
+          "Value": "sha256-spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.n35ra8qlnw.wasm",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-n35ra8qlnw.gz",
+      "Route": "_framework/cliente.utgi1g9s08.wasm",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-utgi1g9s08.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000096043027"
+          "Quality": "0.000096107641"
         }
       ],
       "ResponseHeaders": [
@@ -9293,15 +9430,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10411"
+          "Value": "10404"
         },
         {
           "Name": "ETag",
-          "Value": "\"eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg=\""
+          "Value": "\"Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9321,13 +9458,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g=\""
+          "Value": "W/\"spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n35ra8qlnw"
+          "Value": "utgi1g9s08"
         },
         {
           "Name": "label",
@@ -9335,13 +9472,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g="
+          "Value": "sha256-spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs="
         }
       ]
     },
     {
-      "Route": "_framework/cliente.n35ra8qlnw.wasm.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-n35ra8qlnw.gz",
+      "Route": "_framework/cliente.utgi1g9s08.wasm.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-utgi1g9s08.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9350,7 +9487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10411"
+          "Value": "10404"
         },
         {
           "Name": "Content-Type",
@@ -9358,11 +9495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg=\""
+          "Value": "\"Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9380,7 +9517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n35ra8qlnw"
+          "Value": "utgi1g9s08"
         },
         {
           "Name": "label",
@@ -9388,144 +9525,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cliente.pdb",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\cliente.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24244"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cliente.pdb",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-hav5jtnecg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000061338404"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16302"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qaTdX7zmbJwt9ddO1UmQ0Veelxb8DKIez9/nLrZlXWA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/cliente.pdb.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\tcrmlfre36-hav5jtnecg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16302"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jsu4bEeScnaCfk/Z+CVg5DxPWwc7igos37j0yvpMtBY="
+          "Value": "sha256-Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao="
         }
       ]
     },
@@ -9548,11 +9548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g=\""
+          "Value": "\"spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:08 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9562,18 +9562,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g="
+          "Value": "sha256-spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs="
         }
       ]
     },
     {
       "Route": "_framework/cliente.wasm",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-n35ra8qlnw.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-utgi1g9s08.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000096043027"
+          "Quality": "0.000096107641"
         }
       ],
       "ResponseHeaders": [
@@ -9583,15 +9583,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10411"
+          "Value": "10404"
         },
         {
           "Name": "ETag",
-          "Value": "\"eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg=\""
+          "Value": "\"Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9611,19 +9611,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g=\""
+          "Value": "W/\"spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bWM9Y7n7VdrFczTAW2JE4O82SiIjggonIVP9n179C4g="
+          "Value": "sha256-spa3Qy3fPCQkC57+C8/5CsE+1MfUGPdSusjcRUwhTMs="
         }
       ]
     },
     {
       "Route": "_framework/cliente.wasm.gz",
-      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-n35ra8qlnw.gz",
+      "AssetFile": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\compressed\\ev71k6zggc-utgi1g9s08.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9632,7 +9632,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10411"
+          "Value": "10404"
         },
         {
           "Name": "Content-Type",
@@ -9640,11 +9640,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg=\""
+          "Value": "\"Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 10 Jun 2025 14:53:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9662,7 +9662,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eJf2iFimrscx/L7xAj6jsK0akSFxotmlLGXkFBfIatg="
+          "Value": "sha256-Edfj4f+1vhjToSIbsDhb2ZklDs1EC4jus181qmDuqao="
         }
       ]
     },
@@ -9736,7 +9736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9797,7 +9797,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9889,7 +9889,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9989,7 +9989,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10050,7 +10050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10103,7 +10103,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10187,7 +10187,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10240,7 +10240,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11057,7 +11057,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11110,7 +11110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11202,7 +11202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11263,7 +11263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Jun 2025 01:04:09 GMT"
+          "Value": "Tue, 11 Feb 2025 23:25:06 GMT"
         },
         {
           "Name": "Cache-Control",

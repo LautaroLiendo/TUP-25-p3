@@ -1,49 +1,97 @@
 @page "/carrito"
-@using cliente.Services
-@using cliente.Dtos
 @inject CarritoService CarritoService
+@inject NavigationManager Navigation
+@using cliente.dtos
 
+<h3>🛒 Carrito</h3>
 
-<h3>Carrito de compras</h3>
-
-@if (productos.Count == 0)
+@if (items is null)
+{
+    <p>Cargando...</p>
+}
+else if (!items.Any())
 {
     <p>No hay productos en el carrito.</p>
 }
 else
 {
-    <ul>
-        @foreach (var producto in productos)
-        {
-            <li>
-                <img src="@producto.ImagenUrl" alt="@producto.Nombre" width="50" />
-                <strong>@producto.Nombre</strong> - @producto.Precio.ToString("C")
-                <button class="btn btn-danger btn-sm" @onclick="() => Quitar(producto)">Quitar</button>
-            </li>
-        }
-    </ul>
-    <button class="btn btn-success" @onclick="ConfirmarCompra">Confirmar compra</button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.Producto?.Nombre</td>
+                    <td>$@item.PrecioUnitario</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary" @onclick="() => Quitar(item.ProductoId)">-</button>
+                        @item.Cantidad
+                        <button class="btn btn-sm btn-secondary" @onclick="() => Agregar(item.ProductoId)">+</button>
+                    </td>
+                    <td>$@item.Importe</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger" @onclick="() => QuitarTodo(item.ProductoId)">🗑</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5>Total: $@items.Sum(i => i.Importe)</h5>
+
+    <button class="btn btn-warning me-2" @onclick="Vaciar">Vaciar Carrito</button>
+    <button class="btn btn-success" @onclick="IrAConfirmacion">Confirmar Compra</button>
 }
 
 @code {
-    private List<ProductoDto> productos = new();
+    private List<ItemCompraDto>? items;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        productos = CarritoService.ObtenerProductos().ToList();
+        await Cargar();
     }
 
-    private void Quitar(ProductoDto producto)
+    private async Task Cargar()
     {
-        CarritoService.QuitarProducto(producto);
-        productos = CarritoService.ObtenerProductos().ToList();
-        StateHasChanged();
+        items = await CarritoService.ObtenerCarrito();
     }
 
-    private async Task ConfirmarCompra()
+    private async Task Agregar(int id)
     {
-        await CarritoService.ConfirmarCompra("Cliente de prueba"); // Reemplaza con la lógica para obtener el nombre del cliente
-        productos.Clear();
-        StateHasChanged();
+        await CarritoService.AgregarProducto(id);
+        await Cargar();
+    }
+
+    private async Task Quitar(int id)
+    {
+        await CarritoService.QuitarProducto(id);
+        await Cargar();
+    }
+
+    private async Task QuitarTodo(int id)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            await Quitar(id);
+        }
+    }
+
+    private async Task Vaciar()
+    {
+        await CarritoService.VaciarCarrito();
+        await Cargar();
+    }
+
+    private void IrAConfirmacion()
+    {
+        Navigation.NavigateTo("/confirmacion");
     }
 }

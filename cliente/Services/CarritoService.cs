@@ -1,47 +1,44 @@
-using cliente.Dtos;
+using System.Net.Http;
 using System.Net.Http.Json;
+using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using cliente.dtos;
 
-namespace cliente.Services;
-
-public class CarritoService
+namespace cliente.Services
 {
-    private readonly HttpClient _http;
-    private List<ProductoDto> carrito = new();
-
-    public CarritoService(HttpClient http)
+    public class CarritoService
     {
-        _http = http;
-    }
+        private readonly HttpClient _http;
+        private Guid? carritoId;
 
-    public void AgregarProducto(ProductoDto producto)
-    {
-        carrito.Add(producto);
-    }
-
-    public void QuitarProducto(ProductoDto producto)
-    {
-        carrito.Remove(producto);
-    }
-
-    public List<ProductoDto> ObtenerCarrito()
-    {
-        return carrito;
-    }
-
-    public List<ProductoDto> ObtenerProductos()
-    {
-        return carrito;
-    }
-
-    public async Task ConfirmarCompra(string nombreCliente)
-    {
-        var datos = new
+        public CarritoService(HttpClient http)
         {
-            cliente = nombreCliente,
-            productos = carrito
-        };
+            _http = http;
+        }
 
-        await _http.PostAsJsonAsync("carrito/confirmar", datos);
-        carrito.Clear();
-    }
-}
+        private async Task AsegurarCarrito()
+        {
+            if (carritoId is not null) return;
+
+            var res = await _http.PostAsJsonAsync("carritos", new { });
+            carritoId = await res.Content.ReadFromJsonAsync<Guid>();
+        }
+
+        public async Task AgregarProducto(int productoId)
+        {
+            await AsegurarCarrito();
+            await _http.PutAsync($"carritos/{carritoId}/{productoId}", null);
+        }
+
+        public async Task QuitarProducto(int productoId)
+        {
+            if (carritoId is null) return;
+            await _http.DeleteAsync($"carritos/{carritoId}/{productoId}");
+        }
+
+        public async Task<List<ItemCompraDto>> ObtenerCarrito()
+        {
+            await AsegurarCarrito();
+            return await _http.GetFromJsonAsync<List<ItemCompraDto>>($"carritos/{carritoId}");
+        }

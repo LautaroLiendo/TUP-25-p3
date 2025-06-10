@@ -32,14 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fycml0by5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/liend/Documents/GitHub/Parcial6/cliente/Pages/Catalogo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liend/Documents/GitHub/Parcial6/cliente/Pages/Confirmacion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWFjaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/liend/Documents/GitHub/Parcial6/cliente/Pages/Productos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/liend/Documents/GitHub/Parcial6/cliente/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/liend/Documents/GitHub/Parcial6/cliente/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/liend/Documents/GitHub/Parcial6/cliente/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-cc5sf5c3ig
