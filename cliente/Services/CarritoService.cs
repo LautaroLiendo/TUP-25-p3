@@ -12,15 +12,11 @@ namespace cliente.Services
         private readonly HttpClient _http;
         private Guid? carritoId;
 
-        public CarritoService(HttpClient http)
-        {
-            _http = http;
-        }
+        public CarritoService(HttpClient http) => _http = http;
 
         private async Task AsegurarCarrito()
         {
-            if (carritoId is not null) return;
-
+            if (carritoId != null) return;
             var res = await _http.PostAsJsonAsync("carritos", new { });
             carritoId = await res.Content.ReadFromJsonAsync<Guid>();
         }
@@ -33,12 +29,29 @@ namespace cliente.Services
 
         public async Task QuitarProducto(int productoId)
         {
-            if (carritoId is null) return;
+            if (carritoId == null) return;
             await _http.DeleteAsync($"carritos/{carritoId}/{productoId}");
         }
 
         public async Task<List<ItemCompraDto>> ObtenerCarrito()
         {
             await AsegurarCarrito();
-            return await _http.GetFromJsonAsync<List<ItemCompraDto>>($"carritos/{carritoId}");
+            return await _http.GetFromJsonAsync<List<ItemCompraDto>>($"carritos/{carritoId}")
+                   ?? new List<ItemCompraDto>();
         }
+
+        public async Task VaciarCarrito()
+        {
+            if (carritoId == null) return;
+            await _http.DeleteAsync($"carritos/{carritoId}");
+        }
+
+        public async Task<CompraDto> ConfirmarCompra(ClienteDto cliente)
+        {
+            await AsegurarCarrito();
+            var res = await _http.PutAsJsonAsync($"carritos/{carritoId}/confirmar", cliente);
+            carritoId = null;
+            return await res.Content.ReadFromJsonAsync<CompraDto>();
+        }
+    }
+}

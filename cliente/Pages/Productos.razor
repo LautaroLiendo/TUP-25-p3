@@ -1,6 +1,6 @@
 @page "/productos"
 @using cliente.Services
-@using cliente.Dtos
+@using cliente.Dtos // Corrected namespace
 @inject ProductoService ProductoService
 @inject CarritoService CarritoService
 @inject NavigationManager NavigationManager
@@ -36,9 +36,9 @@ else
         productos = await ProductoService.ObtenerProductos();
     }
 
-    private void AgregarAlCarrito(ProductoDto producto)
+    private async Task AgregarAlCarrito(ProductoDto producto)
     {
-        CarritoService.AgregarProducto(producto);
+        await CarritoService.AgregarProducto(producto.Id);
         NavigationManager.NavigateTo("/carrito");
     }
 }

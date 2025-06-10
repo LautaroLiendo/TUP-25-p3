@@ -1,97 +1,49 @@
 @page "/carrito"
 @inject CarritoService CarritoService
 @inject NavigationManager Navigation
-@using cliente.dtos
 
 <h3>🛒 Carrito</h3>
 
-@if (items is null)
-{
-    <p>Cargando...</p>
-}
-else if (!items.Any())
-{
-    <p>No hay productos en el carrito.</p>
-}
+@if (items is null) { <p>Cargando...</p> }
+else if (!items.Any()) { <p>El carrito está vacío.</p> }
 else
 {
     <table class="table">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-                <th>Cantidad</th>
-                <th>Subtotal</th>
-                <th></th>
-            </tr>
-        </thead>
+        <thead><tr><th>Producto</th><th>Precio</th><th>Cant.</th><th>Sub</th><th></th></tr></thead>
         <tbody>
-            @foreach (var item in items)
-            {
-                <tr>
-                    <td>@item.Producto?.Nombre</td>
-                    <td>$@item.PrecioUnitario</td>
-                    <td>
-                        <button class="btn btn-sm btn-secondary" @onclick="() => Quitar(item.ProductoId)">-</button>
-                        @item.Cantidad
-                        <button class="btn btn-sm btn-secondary" @onclick="() => Agregar(item.ProductoId)">+</button>
-                    </td>
-                    <td>$@item.Importe</td>
-                    <td>
-                        <button class="btn btn-sm btn-danger" @onclick="() => QuitarTodo(item.ProductoId)">🗑</button>
-                    </td>
-                </tr>
-            }
+        @foreach (var i in items)
+        {
+            <tr>
+                <td>@i.Producto?.Nombre</td>
+                <td>$@i.PrecioUnitario</td>
+                <td>
+                    <button class="btn btn-sm btn-secondary" @onclick="() => Quitar(i.ProductoId)">-</button>
+                    @i.Cantidad
+                    <button class="btn btn-sm btn-secondary" @onclick="() => Agregar(i.ProductoId)">+</button>
+                </td>
+                <td>$@i.Importe</td>
+                <td><button class="btn btn-sm btn-danger" @onclick="() => QuitarTodo(i.ProductoId)">🗑</button></td>
+            </tr>
+        }
         </tbody>
     </table>
 
-    <h5>Total: $@items.Sum(i => i.Importe)</h5>
-
-    <button class="btn btn-warning me-2" @onclick="Vaciar">Vaciar Carrito</button>
-    <button class="btn btn-success" @onclick="IrAConfirmacion">Confirmar Compra</button>
+    <h5>Total: $@items.Sum(x => x.Importe)</h5>
+    <button class="btn btn-warning me-2" @onclick="Vaciar">Vaciar carrito</button>
+    <button class="btn btn-success" @onclick="() => Navigation.NavigateTo(\"/confirmacion\")">Confirmar compra</button>
 }
 
 @code {
     private List<ItemCompraDto>? items;
 
-    protected override async Task OnInitializedAsync()
-    {
-        await Cargar();
-    }
+    protected override async Task OnInitializedAsync() => items = await CarritoService.ObtenerCarrito();
 
-    private async Task Cargar()
-    {
-        items = await CarritoService.ObtenerCarrito();
-    }
-
-    private async Task Agregar(int id)
-    {
-        await CarritoService.AgregarProducto(id);
-        await Cargar();
-    }
-
-    private async Task Quitar(int id)
-    {
-        await CarritoService.QuitarProducto(id);
-        await Cargar();
-    }
-
+    private async Task Agregar(int id) { await CarritoService.AgregarProducto(id); items = await CarritoService.ObtenerCarrito(); }
+    private async Task Quitar(int id) { await CarritoService.QuitarProducto(id); items = await CarritoService.ObtenerCarrito(); }
     private async Task QuitarTodo(int id)
     {
-        for (int i = 0; i < 10; i++)
-        {
+        while (items!.Any(i => i.ProductoId == id))
             await Quitar(id);
-        }
     }
-
-    private async Task Vaciar()
-    {
-        await CarritoService.VaciarCarrito();
-        await Cargar();
-    }
-
-    private void IrAConfirmacion()
-    {
-        Navigation.NavigateTo("/confirmacion");
-    }
+    private async Task Vaciar() { await CarritoService.VaciarCarrito(); items = await CarritoService.ObtenerCarrito(); }
 }
