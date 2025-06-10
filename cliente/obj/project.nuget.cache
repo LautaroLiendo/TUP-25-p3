@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUnZChEvpMM=",
+  "dgSpecHash": "Afw4p6Z7Qx8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\cliente.csproj",
+  "projectFilePath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\cliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liend\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.3\\microsoft.aspnetcore.authorization.9.0.3.nupkg.sha512",
     "C:\\Users\\liend\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.3\\microsoft.aspnetcore.components.9.0.3.nupkg.sha512",

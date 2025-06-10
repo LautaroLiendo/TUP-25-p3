@@ -3116,11 +3116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\servidor\\servidor.csproj",
+      "projectUniqueName": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\servidor\\servidor.csproj",
       "projectName": "servidor",
-      "projectPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\servidor\\servidor.csproj",
+      "projectPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\servidor\\servidor.csproj",
       "packagesPath": "C:\\Users\\liend\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\servidor\\obj\\",
+      "outputPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\servidor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\liend\\AppData\\Roaming\\NuGet\\NuGet.Config"

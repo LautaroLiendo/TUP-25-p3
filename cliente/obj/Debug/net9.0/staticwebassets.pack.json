@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\Debug\\net9.0\\scopedcss\\bundle\\cliente.styles.css",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\scopedcss\\bundle\\cliente.styles.css",
       "PackagePath": "staticwebassets\\cliente.styles.css"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\wwwroot\\index.html",
+      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

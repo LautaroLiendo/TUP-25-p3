@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\cliente.csproj": {}
+    "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\cliente.csproj": {
+    "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\cliente.csproj",
+        "projectUniqueName": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\cliente.csproj",
         "projectName": "cliente",
-        "projectPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\cliente.csproj",
+        "projectPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\cliente.csproj",
         "packagesPath": "C:\\Users\\liend\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\TP\\61218 - Liendo, Lautaro\\tp6\\cliente\\obj\\",
+        "outputPath": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liend\\AppData\\Roaming\\NuGet\\NuGet.Config"

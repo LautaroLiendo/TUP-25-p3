@@ -18,7 +18,17 @@ public class CarritoService
         carrito.Add(producto);
     }
 
+    public void QuitarProducto(ProductoDto producto)
+    {
+        carrito.Remove(producto);
+    }
+
     public List<ProductoDto> ObtenerCarrito()
+    {
+        return carrito;
+    }
+
+    public List<ProductoDto> ObtenerProductos()
     {
         return carrito;
     }
