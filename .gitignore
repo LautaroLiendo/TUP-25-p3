@@ -1,0 +1,75 @@
+# -----------------------------
+# IDEs y editores
+# -----------------------------
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# VS Code
+.vscode/
+
+# Code Runner (extensiones temporales)
+**/tempCodeRunnerFile.cs
+tempCodeRunnerFile.csharp
+
+# -----------------------------
+# Salidas de compilación
+# -----------------------------
+# Binarios y objetos
+**/bin/
+**/obj/
+
+# Publicaciones y despliegues
+**/publish/
+**/node_modules/
+
+# -----------------------------
+# Sistema operativo
+# -----------------------------
+# macOS
+**/.DS_Store
+
+# Windows
+Thumbs.db
+
+# -----------------------------
+# Archivos temporales y caches
+# -----------------------------
+# Carpetas temporales del proyecto
+**/tmp/
+
+# Nombres genéricos
+*.tmp
+*.log
+
+# Fechas y soluciones intermedias
+fechas/
+/datos/Soluciones/
+
+# -----------------------------
+# Contenido web estático
+# -----------------------------
+# Ignorar librerías bajo wwwroot/lib
+**/wwwroot/lib/**
+
+
+# -----------------------------
+# Bases de datos locales
+# -----------------------------
+*.db-shm
+*.db-wal
+
+# -----------------------------
+# Archivos específicos del proyecto
+# -----------------------------
+# Enunciados y exámenes
+examen/respuestas-examen.md
+
+# Configuración sensible
+github-config.json
+*.secret.json
+
+# Archivos falsos de prueba
+.fake
+*/node_modules
