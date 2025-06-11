@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\obj\\Debug\\net9.0\\scopedcss\\bundle\\cliente.styles.css",
-      "PackagePath": "staticwebassets\\cliente.styles.css"
-    },
-    {
       "Id": "C:\\Users\\liend\\Documents\\GitHub\\Parcial6\\cliente\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

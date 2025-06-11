@@ -1,37 +1,37 @@
 @page "/confirmacion"
+#nullable enable
 @inject CarritoService CarritoService
-@inject NavigationManager Navigation
+@inject NavigationManager nav
+@using cliente.dtos
 
 <h3>Confirmación de Compra</h3>
 
-<EditForm Model="cliente" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="cliente" OnValidSubmit="Confirmar">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div class="mb-3">
-        <label class="form-label">Nombre</label>
+        <label>Nombre</label>
         <InputText class="form-control" @bind-Value="cliente.Nombre" />
     </div>
-
     <div class="mb-3">
-        <label class="form-label">Apellido</label>
+        <label>Apellido</label>
         <InputText class="form-control" @bind-Value="cliente.Apellido" />
     </div>
-
     <div class="mb-3">
-        <label class="form-label">Email</label>
+        <label>Email</label>
         <InputText class="form-control" @bind-Value="cliente.Email" />
     </div>
 
-    <button type="submit" class="btn btn-success">Confirmar</button>
+    <button class="btn btn-success">Confirmar</button>
 </EditForm>
 
 @code {
     private ClienteDto cliente = new();
 
-    private async Task HandleValidSubmit()
+    private async Task Confirmar()
     {
         await CarritoService.ConfirmarCompra(cliente);
-        Navigation.NavigateTo("/");
+        nav.NavigateTo("/");
     }
 }

@@ -1,8 +1,5 @@
-using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
+using cliente.Dtos;
 using cliente.dtos;
 
 namespace cliente.Services
@@ -51,7 +48,9 @@ namespace cliente.Services
             await AsegurarCarrito();
             var res = await _http.PutAsJsonAsync($"carritos/{carritoId}/confirmar", cliente);
             carritoId = null;
+#pragma warning disable CS8603 // Possible null reference return.
             return await res.Content.ReadFromJsonAsync<CompraDto>();
+#pragma warning restore CS8603 // Possible null reference return.
         }
     }
 }

@@ -1,4 +1,4 @@
-namespace cliente.dtos
+namespace cliente.Dtos
 {
     public class ItemCompraDto
     {

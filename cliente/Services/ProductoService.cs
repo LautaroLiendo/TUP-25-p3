@@ -2,7 +2,8 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using cliente.dtos;
+using cliente.Dtos;
+#nullable enable
 
 namespace cliente.Services
 {
@@ -12,7 +13,7 @@ namespace cliente.Services
 
         public ProductoService(HttpClient http) => _http = http;
 
-        public async Task<List<ProductoDto>> GetProductos(string? buscar = null)
+        public async Task<List<ProductoDto>> ObtenerProductos(string? buscar = null)
         {
             var url = "productos" + (string.IsNullOrWhiteSpace(buscar) ? "" : $"?buscar={buscar}");
             return await _http.GetFromJsonAsync<List<ProductoDto>>(url)
