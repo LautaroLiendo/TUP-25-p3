@@ -9,9 +9,11 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
+// HttpClient configurado con el backend
 builder.Services.AddScoped(sp =>
-    new HttpClient { BaseAddress = new Uri("http://localhost:7274/")});
+    new HttpClient { BaseAddress = new Uri("http://localhost:7274/") });
 
+// Servicios
 builder.Services.AddScoped<ProductoService>();
 builder.Services.AddScoped<CarritoService>();
 

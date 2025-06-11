@@ -1,10 +1,14 @@
 @page "/confirmacion"
-#nullable enable
 @inject CarritoService CarritoService
 @inject NavigationManager nav
-@using cliente.dtos
+@using cliente.Dtos
 
 <h3>Confirmación de Compra</h3>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-danger">@error</div>
+}
 
 <EditForm Model="cliente" OnValidSubmit="Confirmar">
     <DataAnnotationsValidator />
@@ -27,11 +31,20 @@
 </EditForm>
 
 @code {
-    private ClienteDto cliente = new();
+    private dtos.ClienteDto cliente = new();
+    private string? error;
 
     private async Task Confirmar()
     {
-        await CarritoService.ConfirmarCompra(cliente);
-        nav.NavigateTo("/");
+        try
+        {
+            await CarritoService.ConfirmarCompra(cliente);
+            nav.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            error = "No se pudo confirmar la compra. Verificá que el carrito no esté vacío.";
+            Console.WriteLine(ex.Message);
+        }
     }
 }

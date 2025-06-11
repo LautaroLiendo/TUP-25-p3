@@ -47,9 +47,17 @@ else
         productos = await ProductoService.ObtenerProductos(filtro);
     }
 
-    private async Task AgregarAlCarrito(int id)
+private async Task AgregarAlCarrito(int id)
+{
+    try
     {
         await CarritoService.AgregarProducto(id);
-        await CargarProductos(); // Actualiza stock en catálogo
+        await CargarProductos();
     }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Error al agregar al carrito: " + ex.Message);
+    }
+}
+}
 }

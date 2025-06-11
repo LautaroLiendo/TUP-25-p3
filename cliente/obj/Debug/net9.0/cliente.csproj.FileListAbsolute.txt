@@ -2063,10 +2063,10 @@ C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\cliente.dll
 C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\refint\cliente.dll
 C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\cliente.pdb
 C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\ref\cliente.dll
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.b5ukmgzd2p.pdb
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.uukq2i0iiw.wasm
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.uukq2i0iiw.wasm.gz
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.b5ukmgzd2p.pdb.gz
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\ev71k6zggc-uukq2i0iiw.gz
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\tcrmlfre36-b5ukmgzd2p.gz
-C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\tgoiw4fjhw-ql5vbr08kt.gz
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.4a72se7qdw.pdb
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.p1r1dnwf8h.wasm
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.p1r1dnwf8h.wasm.gz
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\bin\Debug\net9.0\wwwroot\_framework\cliente.4a72se7qdw.pdb.gz
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\ev71k6zggc-p1r1dnwf8h.gz
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\tcrmlfre36-4a72se7qdw.gz
+C:\Users\liend\Documents\GitHub\Parcial6\cliente\obj\Debug\net9.0\compressed\tgoiw4fjhw-88kn5pakbl.gz
