@@ -1,7 +1,9 @@
+@page "/"
 @page "/catalogo"
 @using cliente.Services
 @using cliente.Dtos
 @inject ProductoService ProductoService
+@inject CarritoService CarritoService
 
 <h1>Catálogo</h1>
 
@@ -24,7 +26,9 @@ else
                         <h5 class="card-title">@producto.Nombre</h5>
                         <p class="card-text">@producto.Descripcion</p>
                         <p class="card-text"><strong>@producto.Precio.ToString("C")</strong></p>
-                        <button class="btn btn-primary" @onclick="() => AgregarAlCarrito(producto.Id)">Agregar al carrito</button>
+                        <button class="btn btn-primary" @onclick="() => AgregarAlCarrito(producto.Id)">
+                            Agregar al carrito
+                        </button>
                     </div>
                 </div>
             </div>
@@ -38,11 +42,14 @@ else
 
     protected override async Task OnInitializedAsync() => await CargarProductos();
 
-    private async Task CargarProductos() =>
+    private async Task CargarProductos()
+    {
         productos = await ProductoService.ObtenerProductos(filtro);
+    }
 
     private async Task AgregarAlCarrito(int id)
     {
-        // Implementación para agregar al carrito
+        await CarritoService.AgregarProducto(id);
+        await CargarProductos(); // Actualiza stock en catálogo
     }
 }
