@@ -1,0 +1,68 @@
+﻿@inherits LayoutComponentBase
+@inject cliente.Services.TiendaService TiendaService
+@inject NavigationManager Navegacion
+
+<header class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-4">
+    <div class="container">
+        <a href="/" class="navbar-brand d-flex align-items-center">
+            <img src="/icono.webp" alt="Logo Tienda" style="height: 40px;" />
+            <span class="ms-2">Mi Tienda de Ropa</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link @(EstaActiva("/"))" href="/">Catálogo</a>
+                </li>
+            </ul>
+            <div class="d-flex align-items-center">
+                <a href="/carrito" class="btn btn-outline-light position-relative">
+                    <i class="bi bi-cart-fill"></i>
+                    <span class="ms-1">Carrito</span>
+                    @if (cantidadCarrito > 0)
+                    {
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            @cantidadCarrito
+                        </span>
+                    }
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main-container container">
+    @Body
+</div>
+
+@code {
+    private int cantidadCarrito = 0;
+    private string urlActual = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        urlActual = new Uri(Navegacion.Uri).AbsolutePath;
+
+        await ActualizarContadorCarrito();
+        TiendaService.CarritoActualizado += ActualizarContadorCarrito;
+    }
+
+    private async Task ActualizarContadorCarrito()
+    {
+        var carrito = await TiendaService.ObtenerItemsCarritoAsync();
+        cantidadCarrito = carrito?.Sum(item => item.Cantidad) ?? 0;
+        StateHasChanged();
+    }
+
+    private string EstaActiva(string href)
+    {
+        return urlActual.Equals(href, StringComparison.OrdinalIgnoreCase) ? "active" : "";
+    }
+
+    public void Dispose()
+    {
+        TiendaService.CarritoActualizado -= ActualizarContadorCarrito;
+    }
+}

@@ -1,0 +1,26 @@
+@page "/confirmar"
+@inject TiendaService ApiService
+@inject NavigationManager Nav
+
+<h2>Finalizar compra</h2>
+
+<div class="mb-3">
+    <label>Tu nombre</label>
+    <input class="form-control" @bind="cliente.Nombre" />
+</div>
+<div class="mb-3">
+    <label>Correo electrónico</label>
+    <input class="form-control" @bind="cliente.Correo" />
+</div>
+
+<button class="btn btn-primary" @onclick="ConfirmarCompra">Confirmar compra</button>
+
+@code {
+    private ClienteInfoDto cliente = new ClienteInfoDto();
+
+    private async Task ConfirmarCompra()
+    {
+        await ApiService.ConfirmarCompraAsync(cliente);
+        Nav.NavigateTo("/compra-confirmada");
+    }
+}

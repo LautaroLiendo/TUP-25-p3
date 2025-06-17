@@ -1,0 +1,59 @@
+/* Contenedor principal - columna */
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #121212;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Contenido principal ocupa todo el espacio */
+main {
+    flex-grow: 1;
+    padding: 1.5rem;
+}
+
+/* Barra superior */
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 3.5rem;
+    padding: 0 1rem;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+/* Links en barra superior */
+.top-row ::deep a,
+.top-row ::deep .btn-link {
+    color: #bbb;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    white-space: nowrap;
+    transition: color 0.3s;
+}
+
+.top-row ::deep a:hover,
+.top-row ::deep .btn-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Sidebar solo en pantallas grandes */
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 220px;
+        height: 100vh;
+        background-color: #1e1e1e;
+        position: sticky;
+        top: 0;
+        padding: 1rem;
+        color: #ccc;
+    }
+}
